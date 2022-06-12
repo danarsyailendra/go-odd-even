@@ -1,8 +1,6 @@
 package go_odd_even
 
-import "fmt"
-
-func OddEven(angka ...int) {
+func OddEven(angka ...int) string {
 	var result string
 	for i, value := range angka {
 		if i != 0 {
@@ -16,6 +14,6 @@ func OddEven(angka ...int) {
 
 	}
 
-	fmt.Println(result)
+	return result
 
 }
