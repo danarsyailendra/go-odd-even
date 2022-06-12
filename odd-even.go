@@ -6,7 +6,7 @@ func OddEven(angka ...int) {
 	var result string
 	for i, value := range angka {
 		if i != 0 {
-			result = result + ", "
+			result = result + ","
 		}
 		if value%2 == 1 {
 			result = result + "Ganjil"
